@@ -47,3 +47,7 @@ env/
 # JSON backups (keep originals)
 *.bak
 *.backup
+
+# U-Ai one-click launchers (local only)
+OPEN-APP.cmd
+FIX-GITHUB-PAGES.cmd
