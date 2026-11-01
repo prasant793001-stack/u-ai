@@ -1,0 +1,49 @@
+# U-AI .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Private files
+.uai/
+.env
+.env.local
+.env.*.local
+
+# U-Ai private edit history
+.forge/
+uploads/
+environment/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+logs/*.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# JSON backups (keep originals)
+*.bak
+*.backup

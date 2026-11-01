@@ -1,0 +1,28 @@
+{
+  "workflows": {
+    "image_generation": {
+      "name": "Image Generation",
+      "description": "Generate images using ComfyUI or Qwen",
+      "api_endpoint": "/prompt",
+      "timeout": 300
+    },
+    "background_removal": {
+      "name": "Background Removal",
+      "description": "Remove background using birefnet",
+      "api_endpoint": "/remove-background",
+      "model": "birefnet.safetensors"
+    },
+    "audio_generation": {
+      "name": "Audio Generation",
+      "description": "Generate music/SFX using ComfyUI",
+      "api_endpoint": "/generate-audio",
+      "workflow_file": "uploads/audio_stable_audio_3_medium.json"
+    },
+    "ai_council": {
+      "name": "AI Council",
+      "description": "Multi-AI consensus",
+      "api_endpoint": "/consensus",
+      "max_time": 300  // 5 minutes in seconds
+    }
+  }
+}

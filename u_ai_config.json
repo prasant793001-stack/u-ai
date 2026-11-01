@@ -1,0 +1,13 @@
+{
+  "background_removal_api": "",
+  "background_removal_api_key": "",
+  "ai_council_api": "",
+  "ai_council_api_key": "",
+  "comfyui_api": "http://localhost:8188",
+  "comfyui_api_key": "",
+  "qwen_api": "",
+  "qwen_api_key": "",
+  "pinterest_api": "",
+  "pinterest_api_key": "",
+  "qr_code_api": "https://tzprasantofficial-ai.github.io/U-DESIGN-QR-"
+}
